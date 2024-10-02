@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <TextView
+        android:id="@+id/tv_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo" />
+
+    <TextView
+        android:id="@+id/tv_rut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUT" />
+
+    <Button
+        android:id="@+id/btn_obtener_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener Usuario" />
+
+    <Button
+        android:id="@+id/btn_obtener_todos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener Todos los Usuarios" />
+</LinearLayout>
